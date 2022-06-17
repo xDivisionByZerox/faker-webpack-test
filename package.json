@@ -1,0 +1,22 @@
+{
+  "author": "xDivisionByZerox",
+  "dependencies": {
+    "@faker-js/faker": "^7.2.0",
+    "webpack": "^4.46.0"
+  },
+  "description": "Test the compatibility between @faker-js/faker and webpack",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "webpack-cli": "^4.10.0"
+  },
+  "homepage": "https://github.com/xDivisionByZerox/faker-webpack-test#readme",
+  "license": "MIT",
+  "name": "faker-webpack-test",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "version": "1.0.0"
+}
