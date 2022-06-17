@@ -2,7 +2,7 @@
 
 This repository is an example of how to integrate @faker-js/faker >= 7 with webpack < 5.
 
-The [index.html](index.html) file at the root of the project is just there to somewhat should you that you generate a useable source file.
+The [index.html](index.html) file at the root of the project is just there to somewhat show you that you generate a useable source file.
 
 # Reproduction
 
