@@ -9,14 +9,16 @@
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
     "babel-loader": "^8.2.5",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
   },
   "homepage": "https://github.com/xDivisionByZerox/faker-webpack-test#readme",
   "license": "MIT",
   "name": "faker-webpack-test",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "serve": "webpack serve"
   },
   "version": "1.0.0"
 }

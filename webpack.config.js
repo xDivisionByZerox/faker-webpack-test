@@ -17,4 +17,11 @@ module.exports = {
       }
     ],
   },
+  devServer: {
+    static: {
+      directory: path.resolve('./'),
+    },
+    compress: true,
+    port: 8080,
+  },
 };

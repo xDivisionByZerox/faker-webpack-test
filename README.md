@@ -2,17 +2,15 @@
 
 This repository is an example of how to integrate @faker-js/faker >= 7 with webpack < 5.
 
-The [index.html](index.html) file at the root of the project is just there to somewhat show you that you generate a useable source file.
+# prerequisite
 
-# Reproduction
-
-You can ensure that this setup works by cloning the repo:
+You should cloning the repo:
 
 ```bash
 git clone https://github.com/xDivisionByZerox/faker-webpack-test.git
 ```
 
-After that, move into the project directory:
+Move into the project directory:
 
 ```bash
 cd faker-webpack-test
@@ -24,8 +22,19 @@ And installing the dependencies:
 npm install
 ```
 
-Finally you can build this project:
+# build
+
+If you just want to build the source files you can run the build script.
 
 ```bash
 npm run build
+```
+
+# serve
+
+If you want to see that the generated source files really work you can serve them via the webpack dev server. 
+This also includes the build step.
+
+```
+npm run serve
 ```
